@@ -7,7 +7,6 @@ import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.datastore.preferences.core.Preferences
-import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.glance.*
 import androidx.glance.action.ActionParameters
 import androidx.glance.action.actionParametersOf
@@ -33,7 +32,6 @@ import com.nahabit.tracker.core.di.SystemEntryPoint
 import dagger.hilt.android.EntryPointAccessors
 
 private val HabitIdParamKey = ActionParameters.Key<Long>("habit_id")
-private val WidgetRefreshTimestampKey = longPreferencesKey("widget_refresh_ts")
 
 class NahabitGlanceWidget : GlanceAppWidget() {
 
@@ -48,12 +46,10 @@ class NahabitGlanceWidget : GlanceAppWidget() {
             val manager = GlanceAppWidgetManager(context)
             val glanceIds = manager.getGlanceIds(NahabitGlanceWidget::class.java)
             glanceIds.forEach { id ->
-                updateAppWidgetState(context, PreferencesGlanceStateDefinition, id) { prefs ->
-                    prefs.toMutablePreferences().apply {
-                        this[WidgetRefreshTimestampKey] = System.currentTimeMillis()
-                    }
+                try {
+                    NahabitGlanceWidget().update(context, id)
+                } catch (_: Exception) {
                 }
-                NahabitGlanceWidget().update(context, id)
             }
         }
     }
@@ -79,7 +75,6 @@ class NahabitGlanceWidget : GlanceAppWidget() {
         val completedCount = definitions.count { logsMap[it.id]?.isCompleted == true }
 
         provideContent {
-            currentState<Preferences>()[WidgetRefreshTimestampKey]
             GlanceTheme {
                 WidgetContent(
                     context = context,
