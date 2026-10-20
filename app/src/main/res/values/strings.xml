@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">Nahabit</string>
+    <string name="nav_today">Hoy</string>
+    <string name="nav_habits">Hábitos</string>
+    <string name="nav_focus">Enfoque</string>
+    <string name="nav_workout">Entreno</string>
+    <string name="nav_body">Cuerpo</string>
+    <string name="nav_journal">Diario</string>
+    <string name="nav_abstinence">Libre</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <string name="state_loading">Cargando tus datos locales…</string>
+    <string name="state_empty_habits">Aún no tienes hábitos configurados. ¡Crea el primero o usa una plantilla!</string>
+    <string name="state_empty_workouts">No hay rutinas registradas todavía.</string>
+    <string name="state_empty_journal">Tu diario está vacío. Escribe tu primera reflexión hoy.</string>
+    <string name="state_empty_abstinence">Agrega un mal hábito que quieras dejar atrás.</string>
+    <string name="state_error_generic">Ocurrió un error al leer los datos locales.</string>
+
+    <string name="greeting_morning">Buenos días</string>
+    <string name="greeting_afternoon">Buenas tardes</string>
+    <string name="greeting_evening">Buenas noches</string>
+    <string name="today_subtitle">Resumen de tu progreso diario 100% local</string>
+    <string name="today_ring_habits">Hábitos</string>
+    <string name="today_ring_water">Hidratación</string>
+    <string name="today_water_title">Agua de hoy: %1$d / %2$d vasos</string>
+    <string name="today_water_add">+1 Vaso (250 ml)</string>
+    <string name="today_water_remove">-1</string>
+    <string name="today_quote_title">Enfoque del día</string>
+    <string name="today_quote_1">La disciplina diaria vence a la motivación pasajera.</string>
+    <string name="today_quote_2">Un 1%% mejor cada día construye resultados extraordinarios.</string>
+    <string name="today_quote_3">No rompas la cadena hoy; tu yo del futuro te lo agradecerá.</string>
+    <string name="today_swipe_hint">Desliza un hábito a la derecha o pulsa el botón para completarlo</string>
+    <string name="today_all_done_banner">¡Día perfecto! Completaste todos tus hábitos de hoy.</string>
+
+    <string name="onboarding_title">Bienvenido a Nahabit</string>
+    <string name="onboarding_desc">Tu centro de hábitos, entrenamiento y bienestar 100%% privado y sin internet. Configura tu experiencia en un toque:</string>
+    <string name="onboarding_cta">Crear hábitos base y comenzar</string>
+
+    <string name="habits_title">Hábitos y Registro Retroactivo</string>
+    <string name="habits_streak_label">Racha: %1$d d (Mejor: %2$d d)</string>
+    <string name="habits_add_button">Crear Hábito Pro</string>
+    <string name="habits_name_hint">Nombre del hábito (ej. Leer, Meditar)</string>
+    <string name="habits_unit_hint">Unidad (ej. páginas, min, vasos)</string>
+    <string name="habits_note_hint">Nota del día (opcional)…</string>
+    <string name="habits_complete_action">Marcar hoy</string>
+    <string name="habits_templates_title">Plantillas Rápidas</string>
+    <string name="habits_group_morning">🌅 Mañana</string>
+    <string name="habits_group_afternoon">☀️ Tarde</string>
+    <string name="habits_group_evening">🌙 Noche</string>
+    <string name="habits_group_anytime">⚡ Cualquier hora</string>
+    <string name="habits_type_yesno">Sí / No</string>
+    <string name="habits_type_quantity">Cantidad</string>
+    <string name="habits_type_duration">Duración (min)</string>
+    <string name="habits_goal_at_least">Al menos</string>
+    <string name="habits_goal_at_most">Como máximo</string>
+    <string name="habits_freq_daily">Diario</string>
+    <string name="habits_freq_times_week">%1$d v/semana</string>
+    <string name="habits_freq_every_n">Cada %1$d días</string>
+    <string name="habits_Grace_days">Días de gracia (congelar racha): %1$d</string>
+    <string name="habits_archive_action">Archivar</string>
+    <string name="habits_pause_action">Pausar</string>
+    <string name="habits_monthly_heatmap">Mapa de Calor Mensual (28 días)</string>
+
+    <string name="abstinence_title">Abstinencia y Libertad Personal</string>
+    <string name="abstinence_why_hint">¿Por qué empecé a dejarlo? (Tu motivación)</string>
+    <string name="abstinence_cost_hint">Gasto diario ahorrado ($)</string>
+    <string name="abstinence_minutes_hint">Minutos diarios recuperados</string>
+    <string name="abstinence_saved_summary">💰 Ahorrado: $%1$.0f • ⏳ Tiempo recuperado: %2$.1f hrs</string>
+    <string name="abstinence_milestone_reached">🏅 Hito alcanzado: %1$s</string>
+    <string name="abstinence_sos_button">🚨 Botón de Emergencia S.O.S. (Tengo un impulso)</string>
+    <string name="abstinence_sos_title">Protocolo de Emergencia Anti-Impulso</string>
+    <string name="abstinence_sos_desc">El deseo intenso dura menos de 10 minutos. Respira profundo, recuerda tu motivo y deja que el cronómetro baje la ansiedad:</string>
+    <string name="abstinence_relapse_btn">Registrar Recaída (Sin borrar historial)</string>
+    <string name="abstinence_relapse_trigger_hint">¿Qué disparó la recaída? (ej. Estrés, Insomnio)</string>
+    <string name="abstinence_relapse_history">Historial de recaídas registradas: %1$d</string>
+
+    <string name="workout_title">Rutinas y Entrenamiento</string>
+    <string name="body_title">Salud Corporal y Métricas</string>
+
+    <string name="stats_title">Estadísticas y Progreso</string>
+    <string name="stats_share_button">Compartir Logro</string>
+    <string name="stats_level_format">Nivel %1$d • %2$d XP</string>
+    <string name="stats_xp_next">Faltan %1$d XP para el Nivel %2$d</string>
+    <string name="stats_wellness_score">Puntaje de Bienestar Hoy: %1$d / 100</string>
+    <string name="stats_period_week">7 Días: %1$d%%</string>
+    <string name="stats_period_month">30 Días: %1$d%%</string>
+    <string name="stats_period_year">365 Días: %1$d%%</string>
+    <string name="stats_month_comparison">Comparación vs mes anterior: %1$s%2$d%%</string>
+    <string name="stats_best_worst_days">Mejor día: %1$s • Día más difícil: %2$s</string>
+    <string name="stats_most_consistent">Más constante: %1$s</string>
+    <string name="stats_least_consistent">Requiere atención: %1$s</string>
+    <string name="stats_heatmap_title">Mapa de Calor (Últimos 90 días)</string>
+    <string name="stats_weekly_bars_title">Rendimiento por Día de la Semana</string>
+    <string name="stats_badges_title">Insignias Desbloqueadas (%1$d/%2$d)</string>
+    <string name="stats_challenges_title">Retos Personales Activos</string>
+    <string name="stats_start_challenge">Iniciar Reto de %1$d Días</string>
+    <string name="stats_compassion_msg">Un día no define tu camino. Retoma hoy sin culpa: la constancia se mide en meses, no en tropiezos aislados.</string>
+
+    <string name="badge_first_step">Primer Paso</string>
+    <string name="badge_streak_7">Racha de 7 Días</string>
+    <string name="badge_streak_30">Constancia 30 Días</string>
+    <string name="badge_centurion">100 Registros</string>
+    <string name="badge_athlete">Atleta Local</string>
+    <string name="badge_mindful">Mente Clara</string>
+
+    <string name="widget_description">Muestra tus hábitos de hoy, hidratación y accesos rápidos con Material You.</string>
+    <string name="widget_title">Nahabit • Hoy</string>
+    <string name="widget_water_btn">+1 Vaso</string>
+    <string name="widget_workout_btn">Entrenar</string>
+    <string name="widget_all_completed">¡Todo completado hoy!</string>
+
+    <string name="tile_water_label">Agua +1 Vaso</string>
+    <string name="tile_habit_label">Marcar Hábito</string>
+
+    <string name="shortcut_today_short">Hoy</string>
+    <string name="shortcut_today_long">Ver progreso de Hoy</string>
+    <string name="shortcut_workout_short">Entrenar</string>
+    <string name="shortcut_workout_long">Iniciar Rutina de Entreno</string>
+    <string name="shortcut_stats_short">Estadísticas</string>
+    <string name="shortcut_stats_long">Ver Nivel XP y Estadísticas</string>
+
+    <string name="channel_habits_name">Recordatorios de Hábitos</string>
+    <string name="channel_workout_name">Temporizador de Entrenamiento</string>
+    <string name="channel_hydration_name">Recordatorios de Hidratación</string>
+    <string name="channel_achievements_name">Logros y Rachas</string>
+    <string name="notif_action_complete">Hecho</string>
+    <string name="notif_action_snooze">Posponer</string>
+    <string name="notif_action_skip">Omitir</string>
+
+    <string name="journal_title">Diario y Bienestar Mental</string>
+    <string name="journal_tab_entries">Diario</string>
+    <string name="journal_tab_breathing">Respiración y Meditación</string>
+    <string name="journal_search_hint">Buscar por texto o #etiqueta…</string>
+    <string name="journal_prompt_title">Pregunta guiada de hoy</string>
+    <string name="journal_prompt_1">¿Qué pequeño logro de hoy merece que te sientas orgulloso?</string>
+    <string name="journal_prompt_2">¿Qué pensamiento puedes soltar hoy para descansar con más calma?</string>
+    <string name="journal_prompt_3">¿Qué aprendizaje te dejó el obstáculo más difícil de esta semana?</string>
+    <string name="journal_template_free">Libre</string>
+    <string name="journal_template_gratitude">3 Gratitudes</string>
+    <string name="journal_template_review">Revisión del Día</string>
+    <string name="journal_template_goals">Enfoque y Metas</string>
+    <string name="journal_tags_hint">Etiquetas (ej. #calma, #estudio)</string>
+    <string name="journal_write_hint">Escribe tus pensamientos (100%% privado en tu dispositivo)…</string>
+    <string name="journal_mood_chart_title">Tendencia de Ánimo (Últimas entradas)</string>
+    <string name="journal_weekly_review_title">Resumen Automático de los Últimos 7 Días</string>
+    <string name="journal_weekly_review_desc">Hábitos cumplidos: %1$d • Entrenos: %2$d • Ánimo medio: %3$.1f/5</string>
+    <string name="journal_low_mood_support">Notamos que los últimos días han sido pesados. Recuerda que no tienes que cargar con todo a solas: hablar con alguien de confianza o acudir a un profesional de la salud mental es un acto de fortaleza.</string>
+    <string name="journal_pin_lock_title">Diario Protegido con PIN</string>
+    <string name="journal_pin_enter">Ingresa tu PIN de 4 dígitos</string>
+    <string name="journal_pin_setup">Configurar PIN de bloqueo (4 dígitos)</string>
+    <string name="journal_pin_unlock">Desbloquear</string>
+    <string name="journal_pin_remove">Quitar PIN</string>
+
+    <string name="breath_box_title">Respiración en Caja (4-4-4-4)</string>
+    <string name="breath_478_title">Relajación Profunda (4-7-8)</string>
+    <string name="breath_coherent_title">Coherencia Cardíaca (5-5)</string>
+    <string name="breath_phase_inhale">Inhala suavemente…</string>
+    <string name="breath_phase_hold">Mantén el aire…</string>
+    <string name="breath_phase_exhale">Exhala lento…</string>
+    <string name="breath_start">Iniciar Respiración</string>
+    <string name="breath_stop">Detener</string>
+    <string name="meditation_title">Temporizador de Meditación con Campana</string>
+    <string name="meditation_sessions_done">Sesiones de calma completadas: %1$d (%2$d min)</string>
+    <string name="affirmation_banner">Afirmación: “Avanzo a mi propio ritmo, con constancia y serenidad.”</string>
+
+    <string name="focus_screen_title">Metas, Enfoque y Productividad</string>
+    <string name="focus_tab_pomodoro">Pomodoro</string>
+    <string name="focus_tab_goals_tasks">Metas y Tareas</string>
+    <string name="focus_tab_chains_review">Rituales y Revisión</string>
+    <string name="focus_today_minutes">Enfocado hoy: %1$d min (%2$d sesiones)</string>
+    <string name="focus_tag_hint">Etiqueta de proyecto (ej. #Estudio, #Planeación)</string>
+    <string name="focus_sound_off">Silencio</string>
+    <string name="focus_sound_rain">Lluvia suave</string>
+    <string name="focus_sound_white">Ruido blanco</string>
+    <string name="focus_start_btn">Iniciar Bloque</string>
+    <string name="focus_pause_btn">Pausar</string>
+    <string name="focus_complete_notif_title">¡Bloque de Enfoque Completado!</string>
+    <string name="focus_complete_notif_msg">Se sumaron %1$d minutos a tu proyecto %2$s.</string>
+
+    <string name="goals_section_title">Metas a Largo Plazo</string>
+    <string name="goals_name_hint">Meta (ej. Terminar semestre con excelencia)</string>
+    <string name="goals_milestones_hint">Hitos separados por coma (ej. Borrador, Revisión, Entrega)</string>
+    <string name="goals_add_btn">Crear Meta</string>
+    <string name="tasks_section_title">Tareas Prioritarias</string>
+    <string name="tasks_name_hint">Nueva tarea o pendiente</string>
+    <string name="tasks_subtasks_hint">Subtareas opcionales</string>
+    <string name="priority_high">Alta</string>
+    <string name="priority_medium">Media</string>
+    <string name="priority_low">Baja</string>
+
+    <string name="chains_section_title">Rutinas Encadenadas (Mañana y Noche)</string>
+    <string name="chains_step_done">Completar Paso</string>
+    <string name="chains_reset">Reiniciar Ritual</string>
+    <string name="weekly_guided_title">Revisión Semanal Guiada</string>
+    <string name="weekly_check_1">1. Revisar cumplimiento de hábitos de los últimos 7 días</string>
+    <string name="weekly_check_2">2. Limpiar tareas pendientes y definir las 3 prioridades</string>
+    <string name="weekly_check_3">3. Celebrar los avances de entrenamiento y salud</string>
+    <string name="weekly_check_4">4. Ajustar horarios de enfoque para la próxima semana</string>
+
+    <string name="settings_title">Ajustes, Idioma y Preferencias</string>
+    <string name="settings_day_reset_hour">Hora de cambio de día: %1$d:00 hrs</string>
+    <string name="settings_use_metric">Usar sistema métrico (kg / cm)</string>
+    <string name="settings_theme_title">Tema visual</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_theme_amoled">AMOLED Negro</string>
+    <string name="settings_dynamic_color">Colores dinámicos (Material You)</string>
+    <string name="settings_compact_mode">Modo compacto (tarjetas densas)</string>
+
+    <string name="settings_language_title">Idioma de la aplicación</string>
+    <string name="settings_lang_es">Español</string>
+    <string name="settings_lang_en">English</string>
+
+    <string name="settings_units_title">Sistema de Unidades</string>
+    <string name="settings_unit_kg_cm">Métrico (kg / cm)</string>
+    <string name="settings_unit_lb_in">Imperial (lb / in)</string>
+    <string name="settings_first_day_week">Primer día de la semana</string>
+    <string name="settings_day_monday">Lunes</string>
+    <string name="settings_day_sunday">Domingo</string>
+
+    <string name="battery_guide_title">Optimización de Batería y Recordatorios</string>
+    <string name="battery_guide_status">Estado de optimización: %1$s</string>
+    <string name="battery_status_ignored">Exento de restricciones (Recomendado)</string>
+    <string name="battery_status_restricted">Optimizado por el sistema (Puede retrasar alarmas)</string>
+    <string name="battery_guide_btn">Abrir Ajustes de Batería</string>
+    <string name="battery_manufacturer_tip">Nota para tu dispositivo (%1$s): Asegúrate de permitir el inicio automático y desactivar el ahorro de energía en segundo plano para Nahabit.</string>
+
+    <string name="privacy_section_title">Privacidad y Seguridad Local</string>
+    <string name="privacy_manifesto">Nahabit es 100%% offline: no solicita permiso de internet, no incluye rastreadores y guarda toda tu información únicamente en la base de datos interna de este dispositivo.</string>
+    <string name="privacy_hide_recents">Ocultar pantalla en vista de Apps Recientes (FLAG_SECURE)</string>
+    <string name="privacy_app_lock_pin">PIN de bloqueo al abrir la app (vacío = desactivado)</string>
+    <string name="privacy_app_locked_title">Nahabit está bloqueado</string>
+
+    <string name="backup_section_title">Respaldos, Cifrado AES-256 y Exportación</string>
+    <string name="backup_password_hint">Contraseña opcional para cifrar/descifrar (.nahabit)</string>
+    <string name="backup_auto_daily">Respaldo automático diario (guarda las últimas 7 copias)</string>
+    <string name="backup_auto_count">Copias automáticas locales disponibles: %1$d / 7</string>
+    <string name="backup_run_now_btn">Crear copia local ahora</string>
+    <string name="settings_export_backup">Exportar Todo (.nahabit)</string>
+    <string name="settings_import_backup">Importar Todo (.nahabit)</string>
+    <string name="backup_export_csv">Exportar Hábitos (CSV)</string>
+    <string name="backup_import_csv">Importar Hábitos (CSV)</string>
+    <string name="backup_export_pdf">Exportar Reporte en PDF</string>
+    <string name="backup_status_ok">Operación completada con verificación SHA-256 exitosa.</string>
+    <string name="backup_status_error">Error: Contraseña incorrecta o archivo corrupto.</string>
+
+    <string name="about_section_title">Acerca de Nahabit y Diagnóstico Local</string>
+    <string name="about_version_text">Versión 1.12.0 (Build 12) • Arquitectura 100%% Offline</string>
+    <string name="about_crash_log_empty">Sin errores registrados: estabilidad al 100%%.</string>
+
+    <string name="danger_zone_title">Zona de Peligro</string>
+    <string name="danger_wipe_all_btn">Borrar Todos los Datos Locales</string>
+    <string name="danger_wipe_confirm_title">¿Borrar absolutamente todo?</string>
+    <string name="danger_wipe_confirm_desc">Esta acción eliminará todos los hábitos, rutinas, diario y métricas de este dispositivo. Es irreversible si no exportaste un respaldo antes.</string>
+    <string name="danger_wipe_confirm_yes">Sí, borrar todo</string>
+
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Eliminar</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="shortcut_today"
+        android:shortcutLongLabel="@string/shortcut_today_long"
+        android:shortcutShortLabel="@string/shortcut_today_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nahabit.tracker.MainActivity"
+            android:targetPackage="com.nahabit.tracker">
+            <extra android:name="extra_shortcut_dest" android:value="TODAY" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="shortcut_workout"
+        android:shortcutLongLabel="@string/shortcut_workout_long"
+        android:shortcutShortLabel="@string/shortcut_workout_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nahabit.tracker.MainActivity"
+            android:targetPackage="com.nahabit.tracker">
+            <extra android:name="extra_shortcut_dest" android:value="WORKOUT" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="shortcut_stats"
+        android:shortcutLongLabel="@string/shortcut_stats_long"
+        android:shortcutShortLabel="@string/shortcut_stats_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nahabit.tracker.MainActivity"
+            android:targetPackage="com.nahabit.tracker">
+            <extra android:name="extra_shortcut_dest" android:value="STATS" />
+        </intent>
+    </shortcut>
+</shortcuts>
